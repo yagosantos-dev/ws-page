@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+    /* Reset para remover margens/paddings padrão */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } 
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+    
+.font-ws{
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }  */
+
+    :root { 
+        --cor0: ;
+        --cor1: ; 
+        --cor2: ;
+        --cor3: ;
+        --cor4: ;
+        --cor5: ;
+    }
+
+    body { 
+        background-color: #222;
+        
+    }
+    
+    /* Estilo do Header */
+    header h1 {
+        background-color: #222;
+        color: #c52d03;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
+        padding:20px 0 20px 20px;
+        font-size: 24px;
+    } 
+
+    header p { 
+        background-color: #222;
+        color: rgb(255, 255, 255);
+        padding-left: 22px;
+        padding-bottom: 10px;
+    } 
+
+    p { 
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+
+    a { 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+
+    .titulo-ws { 
+        font-size: 2.3em;
+    }
+
+
+    
+    /* Estilo da navegação */
+    nav {
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        padding: 10px 0;
+        z-index: 1000;
+        width: 100%; /* Garante que ocupe a largura total */
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Lista de navegação */
+    nav ul {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+    }
+    
+    li {
+        margin: 0 15px;
+    } 
+
+
+    main h2 { 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+        padding: 10px 0 5px 10px;
+        background-color: #811e03;
+        border-radius: 2px 2px 0 0; 
+        color: #ffffff;
+    }
+
+    main ul { 
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+    } 
+
+    main a { 
+        text-decoration: none;
+        color: black;  
+        display: flex;
+        justify-content: space-evenly;
+        width: fit-content;
+        padding: 5px;
+        
+    }
+
+    main a:hover{ 
+        
+        background-color: #222;
+        color: white ;
+        border-radius: 4px;
+
+    }
+
+    main p { 
+        padding: 10px 10px 10px 10px ;
+        text-indent: 20px;
+        text-align: justify;
+    }
+
+    section     { 
+        max-width: 90%;
+        margin: auto;
+        background-color: white; 
+        border-radius: 3px;
+        margin-bottom: 5px;
+        
+    }
+    
+    .link-menu {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px;} 
+    
+
+    .link-menu:hover { 
+        background-color: #0c0c0c;
+        color: #c52d03;
+        border-radius: 5px;
+        
+    } 
+
+    .primeira-capa { 
+        width: 100%;
+        height: 300px;
+        background: white url('imagens/IMG_1514.jpg') top right no-repeat ;
+        background-size: cover; 
+
+        display: flex;
+        justify-content: center; 
+        align-items: center;  
+        text-align: center; 
+        margin-bottom: 10px;
+        
+    }
+
+    .texto-primeira-capa { 
+       
+        font-size: 1.5em; 
+        background-color: #0c0c0ce0; /* Fundo ajustado ao tamanho do texto */
+        color: white;
+        padding: 10px 20px; /* Adiciona espaço ao redor do texto */
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        } 
+
+    .clique-acesse{ 
+        text-align: center;
+    }
+
+    
+   .container { 
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    background-color:#222;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   } 
+
+   .img-produtos { 
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 5px ;
+    border: 2px solid;
+    margin-bottom: 5px;
+
+   }
+
+   .img-grill { 
+    background-image: url('imagens/IMG_0749.PNG');
+   }
+
+   .img-ch { 
+    background-image: url('imagens/IMG_0823.PNG');
+   }
+
+   .img-grelha-argentina { 
+    background-image: url('imagens/IMG_0805.PNG');
+   }
+    
+    
