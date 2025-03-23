@@ -31,14 +31,15 @@
     }
     
     /* Estilo do Header */
-    header h1 {
+    header  h1 {
         background-color: #222;
         color: #c52d03;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.6em;
         font-variant: small-caps;
         padding:20px 0 20px 20px;
-        font-size: 24px;
+        
+
+
     } 
 
     header p { 
@@ -162,6 +163,7 @@
         height: 300px;
         background: white url('imagens/IMG_1514.jpg') top right no-repeat ;
         background-size: cover; 
+        background-attachment: fixed;
 
         display: flex;
         justify-content: center; 
@@ -211,6 +213,8 @@
 
    .img-grill { 
     background-image: url('imagens/IMG_0749.PNG');
+    
+    
    }
 
    .img-ch { 
